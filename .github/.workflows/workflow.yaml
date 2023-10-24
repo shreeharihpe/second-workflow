@@ -16,7 +16,6 @@ jobs:
     run: npm test
 
  deploy:
-  needs: test
   runs-on: ubuntu-latest
   steps:
   - name: Get Code
@@ -32,7 +31,7 @@ jobs:
   - name: Publisht the Code
     run: echo "Finisheed the code"
 
-
+    
 
 
     
