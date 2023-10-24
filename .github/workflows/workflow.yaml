@@ -27,7 +27,7 @@ jobs:
   - name: Install depenedencies
     run: npm ci 
   - name: Build the project
-    run: npm build
+    run: npm run build
   - name: Publisht the Code
     run: echo "Finisheed the code"
 
